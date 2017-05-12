@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/laba-laba.unity
+  isLoaded: 1
+  isActive: 1
