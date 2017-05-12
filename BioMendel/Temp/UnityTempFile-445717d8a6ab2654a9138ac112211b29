@@ -2,33 +2,18 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Assembly-CSharp-Editor.dll
+-out:Temp/Assembly-CSharp.dll
 -unsafe
 -r:"N:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
--r:"N:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
--r:Library/ScriptAssemblies/Assembly-CSharp.dll
--r:Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll"
 -r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
 -r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
 -r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll"
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
 -r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll"
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
 -r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll"
--r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 -r:"N:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
--r:"N:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
--r:"N:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
--r:"N:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll
 -r:Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll
+-r:"N:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_5_OR_NEWER
@@ -99,14 +84,47 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_NATIVE_ARRAY_CHECKS
-Assets/Vuforia/Editor/Scripts/ComponentFactoryStarter/ComponentFactoryStarter.cs
-Assets/Vuforia/Editor/Scripts/ExtensionImport.cs
-Assets/Vuforia/Editor/Scripts/PostProcessBuildPlayer.cs
-Assets/Vuforia/Editor/Scripts/Unzipper/SharpZipLibUnzipper.cs
-Assets/Vuforia/Editor/Scripts/VuforiaConfigurationEditor.cs
--r:"N:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
--r:"N:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
--r:"N:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
--r:"N:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
--r:"N:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
--sdk:2.0
+Assets/Resources/script/Card.cs
+Assets/Resources/script/CardLvl2.cs
+Assets/Resources/script/GameManager.cs
+Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
+Assets/Vuforia/Scripts/CloudRecoBehaviour.cs
+Assets/Vuforia/Scripts/CylinderTargetBehaviour.cs
+Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs
+Assets/Vuforia/Scripts/DefaultSmartTerrainEventHandler.cs
+Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs
+Assets/Vuforia/Scripts/GLErrorHandler.cs
+Assets/Vuforia/Scripts/HideExcessAreaBehaviour.cs
+Assets/Vuforia/Scripts/ImageTargetBehaviour.cs
+Assets/Vuforia/Scripts/Internal/AndroidUnityPlayer.cs
+Assets/Vuforia/Scripts/Internal/ComponentFactoryStarterBehaviour.cs
+Assets/Vuforia/Scripts/Internal/IOSUnityPlayer.cs
+Assets/Vuforia/Scripts/Internal/VuforiaBehaviourComponentFactory.cs
+Assets/Vuforia/Scripts/Internal/WSAUnityPlayer.cs
+Assets/Vuforia/Scripts/MaskOutBehaviour.cs
+Assets/Vuforia/Scripts/MultiTargetBehaviour.cs
+Assets/Vuforia/Scripts/ObjectTargetBehaviour.cs
+Assets/Vuforia/Scripts/PropBehaviour.cs
+Assets/Vuforia/Scripts/ReconstructionBehaviour.cs
+Assets/Vuforia/Scripts/ReconstructionFromTargetBehaviour.cs
+Assets/Vuforia/Scripts/SurfaceBehaviour.cs
+Assets/Vuforia/Scripts/TextRecoBehaviour.cs
+Assets/Vuforia/Scripts/TurnOffBehaviour.cs
+Assets/Vuforia/Scripts/TurnOffWordBehaviour.cs
+Assets/Vuforia/Scripts/UserDefinedTargetBuildingBehaviour.cs
+Assets/Vuforia/Scripts/Utilities/VRIntegrationHelper.cs
+Assets/Vuforia/Scripts/VideoBackgroundBehaviour.cs
+Assets/Vuforia/Scripts/VirtualButtonBehaviour.cs
+Assets/Vuforia/Scripts/VuMarkBehaviour.cs
+Assets/Vuforia/Scripts/VuforiaBehaviour.cs
+Assets/Vuforia/Scripts/VuforiaConfiguration.cs
+Assets/Vuforia/Scripts/VuforiaRuntimeInitialization.cs
+Assets/Vuforia/Scripts/WireframeBehaviour.cs
+Assets/Vuforia/Scripts/WireframeTrackableEventHandler.cs
+Assets/Vuforia/Scripts/WordBehaviour.cs
+-r:"N:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"N:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"N:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"N:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"N:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

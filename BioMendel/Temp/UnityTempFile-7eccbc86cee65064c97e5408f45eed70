@@ -85,7 +85,9 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 Assets/Resources/script/Card.cs
+Assets/Resources/script/CardLvl2.cs
 Assets/Resources/script/GameManager.cs
+Assets/Resources/script/GameManagerLvl2.cs
 Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
 Assets/Vuforia/Scripts/CloudRecoBehaviour.cs
 Assets/Vuforia/Scripts/CylinderTargetBehaviour.cs
