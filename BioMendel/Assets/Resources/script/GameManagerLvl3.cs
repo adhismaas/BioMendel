@@ -23,6 +23,8 @@ public class GameManagerLvl3 : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
             checkCards();
+
+        if (Input.GetKeyDown(KeyCode.Escape)) { SceneManager.LoadScene("Screen Level"); }
     }
 
     void initializeCards()
@@ -84,6 +86,9 @@ public class GameManagerLvl3 : MonoBehaviour
             x = 2;
             _matches--;
             //matchText.text = "Number of Matches left : " + _matches;
+
+            if (_matches == 0)
+                SceneManager.LoadScene("Screen Level");
         }
 
         for (int i = 0; i < c.Count; i++)

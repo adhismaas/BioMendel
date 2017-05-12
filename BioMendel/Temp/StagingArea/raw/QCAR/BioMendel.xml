@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="bexy" size="50.000000 35.693642" />
+    <ImageTarget name="rumput" size="50.000000 47.258774" />
+    <ImageTarget name="pakis" size="50.000000 41.100918" />
+    <ImageTarget name="mawar" size="50.000000 20.279720" />
+    <ImageTarget name="laba_laba" size="50.000000 20.102339" />
+    <ImageTarget name="grapes" size="50.000000 26.457726" />
+    <ImageTarget name="eagle" size="50.000000 20.566319" />
+    <ImageTarget name="dragonfly" size="50.000000 25.949368" />
+    <ImageTarget name="dolphin" size="50.000000 8.854860" />
+    <ImageTarget name="cemara" size="50.000000 19.404070" />
+    <ImageTarget name="Capture_fungi" size="50.000000 30.708662" />
+    <ImageTarget name="butterfly" size="50.000000 48.044693" />
+  </Tracking>
+</QCARConfig>
