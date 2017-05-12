@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMendel", "Assembly-CSharp.csproj", "{3E555A60-8F8D-E8F0-B41E-2E2B2A8E7159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioMendel", "Assembly-CSharp-Editor.csproj", "{C1072DA2-0730-FF13-756C-76A4053C4DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E555A60-8F8D-E8F0-B41E-2E2B2A8E7159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E555A60-8F8D-E8F0-B41E-2E2B2A8E7159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E555A60-8F8D-E8F0-B41E-2E2B2A8E7159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E555A60-8F8D-E8F0-B41E-2E2B2A8E7159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1072DA2-0730-FF13-756C-76A4053C4DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1072DA2-0730-FF13-756C-76A4053C4DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1072DA2-0730-FF13-756C-76A4053C4DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1072DA2-0730-FF13-756C-76A4053C4DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
