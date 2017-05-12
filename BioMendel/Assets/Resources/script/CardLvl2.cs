@@ -26,7 +26,7 @@ public class CardLvl2 : MonoBehaviour {
     void Start()
     {
         _state = 0;
-        _manager = GameObject.FindGameObjectsWithTag("Manager")[0];
+        _manager = GameObject.FindGameObjectsWithTag("Manager2")[0];
     }
 
     public void setupGraphics()

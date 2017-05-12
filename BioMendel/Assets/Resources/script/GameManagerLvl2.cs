@@ -14,13 +14,6 @@ public class GameManagerLvl2 : MonoBehaviour {
     private bool _init = false;
     private int _matches = 3;
 
-    /*public void cardFaceId()
-    {
-        int cardId;
-
-
-    }*/
-
     // Update is called once per frame
     void Update()
     {
@@ -33,23 +26,23 @@ public class GameManagerLvl2 : MonoBehaviour {
 
     void initializeCards()
     {
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < cards.Length; i++)
         {
             bool test = false;
             int choice = 0;
             while (!test)
             {
                 choice = UnityEngine.Random.Range(0, cards.Length);
-                test = !(cards[choice].GetComponent<Card>().initialized);
+                test = !(cards[choice].GetComponent<CardLvl2>().initialized);
             }
 
-            cards[choice].GetComponent<Card>().cardValue = i;
-            cards[choice].GetComponent<Card>().initialized = true;
+            cards[choice].GetComponent<CardLvl2>().cardValue = i;
+            cards[choice].GetComponent<CardLvl2>().initialized = true;
         }
 
 
         foreach (GameObject c in cards)
-            c.GetComponent<Card>().setupGraphics();
+            c.GetComponent<CardLvl2>().setupGraphics();
 
         if (!_init)
             _init = true;
@@ -71,7 +64,7 @@ public class GameManagerLvl2 : MonoBehaviour {
 
         for (int i = 0; i < cards.Length; i++)
         {
-            if (cards[i].GetComponent<Card>().state == 1)
+            if (cards[i].GetComponent<CardLvl2>().state == 1)
                 c.Add(i);
         }
 
@@ -81,23 +74,21 @@ public class GameManagerLvl2 : MonoBehaviour {
 
     void cardComparison(List<int> c)
     {
-        Card.DO_NOT = true;
+        CardLvl2.DO_NOT = true;
 
         int x = 0;
 
-        if (Math.Abs(cards[c[0]].GetComponent<Card>().cardValue - cards[c[1]].GetComponent<Card>().cardValue) == 3)
+        if (Math.Abs(cards[c[0]].GetComponent<CardLvl2>().cardValue - cards[c[1]].GetComponent<CardLvl2>().cardValue) == 3)
         {
             x = 2;
             _matches--;
             //matchText.text = "Number of Matches left : " + _matches;
-            if (_matches == 0)
-                SceneManager.LoadScene("Level");
         }
 
         for (int i = 0; i < c.Count; i++)
         {
-            cards[c[i]].GetComponent<Card>().state = x;
-            cards[c[i]].GetComponent<Card>().falseCheck();
+            cards[c[i]].GetComponent<CardLvl2>().state = x;
+            cards[c[i]].GetComponent<CardLvl2>().falseCheck();
         }
     }
 }
