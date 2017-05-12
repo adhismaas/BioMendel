@@ -9,4 +9,4 @@ To view the release notes, go to https://developer.vuforia.com/library/release-n
             Copyright (c) 2010-2015 PTC Inc.
             All Rights Reserved.
             Confidential and Proprietary - PTC Inc.
-  ============================================================================*/
+  =============================================================================*/
