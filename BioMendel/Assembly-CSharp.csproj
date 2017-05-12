@@ -50,10 +50,12 @@
      <Compile Include="Assets\Resources\script\CardLvl2.cs" />
      <Compile Include="Assets\Resources\script\CardLvl3.cs" />
      <Compile Include="Assets\Resources\script\CardLvl4.cs" />
+     <Compile Include="Assets\Resources\script\CardLvl5.cs" />
      <Compile Include="Assets\Resources\script\GameManager.cs" />
      <Compile Include="Assets\Resources\script\GameManagerLvl2.cs" />
      <Compile Include="Assets\Resources\script\GameManagerLvl3.cs" />
      <Compile Include="Assets\Resources\script\GameManagerLvl4.cs" />
+     <Compile Include="Assets\Resources\script\GameManagerLvl5.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />

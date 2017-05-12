@@ -87,10 +87,13 @@
 Assets/Resources/script/Card.cs
 Assets/Resources/script/CardLvl2.cs
 Assets/Resources/script/CardLvl3.cs
+Assets/Resources/script/CardLvl4.cs
+Assets/Resources/script/CardLvl5.cs
 Assets/Resources/script/GameManager.cs
 Assets/Resources/script/GameManagerLvl2.cs
 Assets/Resources/script/GameManagerLvl3.cs
 Assets/Resources/script/GameManagerLvl4.cs
+Assets/Resources/script/GameManagerLvl5.cs
 Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
 Assets/Vuforia/Scripts/CloudRecoBehaviour.cs
 Assets/Vuforia/Scripts/CylinderTargetBehaviour.cs
