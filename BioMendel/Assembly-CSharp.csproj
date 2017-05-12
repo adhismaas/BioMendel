@@ -48,8 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Resources\script\Card.cs" />
      <Compile Include="Assets\Resources\script\CardLvl2.cs" />
+     <Compile Include="Assets\Resources\script\CardLvl3.cs" />
      <Compile Include="Assets\Resources\script\GameManager.cs" />
      <Compile Include="Assets\Resources\script\GameManagerLvl2.cs" />
+     <Compile Include="Assets\Resources\script\GameManagerLvl3.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
