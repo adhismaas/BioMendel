@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: f9f1052a55850f546a7f2e2fc18611cd
+timeCreated: 1494438367
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body1
+    100002: body2
+    100004: body3
+    100006: body4
+    100008: body5
+    100010: body6
+    100012: body7
+    100014: body8
+    100016: body_bender_wgt
+    100018: camera_holder
+    100020: Circle_wgt_001
+    100022: Circle_wgt_002
+    100024: dolphin_armature
+    100026: dolphin_mesh
+    100028: //RootNode
+    100030: dorsal
+    100032: flipper1_L
+    100034: flipper1_R
+    100036: flipper2_L
+    100038: flipper2_R
+    100040: flipper_wgt_003
+    100042: flipper_wgt_004
+    100044: fluke1_L
+    100046: fluke1_R
+    100048: fluke2_L
+    100050: fluke2_R
+    100052: head
+    100054: jaw
+    100056: jaw_slider_wgt
+    100058: main
+    100060: main_wgt
+    100062: scene_objects
+    100064: target
+    100066: widgets
+    400000: body1
+    400002: body2
+    400004: body3
+    400006: body4
+    400008: body5
+    400010: body6
+    400012: body7
+    400014: body8
+    400016: body_bender_wgt
+    400018: camera_holder
+    400020: Circle_wgt_001
+    400022: Circle_wgt_002
+    400024: dolphin_armature
+    400026: dolphin_mesh
+    400028: //RootNode
+    400030: dorsal
+    400032: flipper1_L
+    400034: flipper1_R
+    400036: flipper2_L
+    400038: flipper2_R
+    400040: flipper_wgt_003
+    400042: flipper_wgt_004
+    400044: fluke1_L
+    400046: fluke1_R
+    400048: fluke2_L
+    400050: fluke2_R
+    400052: head
+    400054: jaw
+    400056: jaw_slider_wgt
+    400058: main
+    400060: main_wgt
+    400062: scene_objects
+    400064: target
+    400066: widgets
+    2300000: body_bender_wgt
+    2300002: camera_holder
+    2300004: Circle_wgt_001
+    2300006: Circle_wgt_002
+    2300008: flipper_wgt_003
+    2300010: flipper_wgt_004
+    2300012: jaw_slider_wgt
+    2300014: main_wgt
+    3300000: body_bender_wgt
+    3300002: camera_holder
+    3300004: Circle_wgt_001
+    3300006: Circle_wgt_002
+    3300008: flipper_wgt_003
+    3300010: flipper_wgt_004
+    3300012: jaw_slider_wgt
+    3300014: main_wgt
+    4300000: dolphin_mesh
+    4300002: main_wgt
+    4300004: jaw_slider_wgt
+    4300006: flipper_wgt_004
+    4300008: flipper_wgt_003
+    4300010: Circle_wgt_002
+    4300012: Circle_wgt_001
+    4300014: body_bender_wgt
+    4300016: camera_holder
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: dolphin_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

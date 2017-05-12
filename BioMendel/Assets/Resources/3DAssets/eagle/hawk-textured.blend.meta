@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 58befa586d039a04a95a112319d105c4
+timeCreated: 1494441892
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: hawk
+    100004: //RootNode
+    100006: head
+    100008: neck
+    100010: spine1
+    100012: spine2
+    100014: tail
+    100016: tail_L
+    100018: tail_L_001
+    100020: tail_L_002
+    100022: tail_L_003
+    100024: tail_L_004
+    100026: tail_L_005
+    100028: tail_L_006
+    100030: tail_L_007
+    100032: tail_L_008
+    100034: tail_L_009
+    100036: tail_L_010
+    100038: tail_L_011
+    100040: tail_L_012
+    100042: tail_L_013
+    100044: tail_L_014
+    100046: tail_L_015
+    100048: tail_L_016
+    100050: tail_L_017
+    100052: tail_L_018
+    100054: tail_R
+    100056: tail_R_001
+    100058: tail_R_002
+    100060: tail_R_003
+    100062: tail_R_004
+    100064: tail_R_005
+    100066: tail_R_006
+    100068: tail_R_007
+    100070: tail_R_008
+    100072: tail_R_009
+    100074: tail_R_010
+    100076: tail_R_011
+    100078: tail_R_012
+    100080: tail_R_013
+    100082: tail_R_014
+    100084: tail_R_015
+    100086: tail_R_016
+    100088: tail_R_017
+    100090: tail_R_018
+    100092: wing_base_L
+    100094: wing_base_R
+    100096: wing_mid_L
+    100098: wing_mid_R
+    100100: wing_outer_L
+    100102: wing_outer_R
+    400000: Armature
+    400002: hawk
+    400004: //RootNode
+    400006: head
+    400008: neck
+    400010: spine1
+    400012: spine2
+    400014: tail
+    400016: tail_L
+    400018: tail_L_001
+    400020: tail_L_002
+    400022: tail_L_003
+    400024: tail_L_004
+    400026: tail_L_005
+    400028: tail_L_006
+    400030: tail_L_007
+    400032: tail_L_008
+    400034: tail_L_009
+    400036: tail_L_010
+    400038: tail_L_011
+    400040: tail_L_012
+    400042: tail_L_013
+    400044: tail_L_014
+    400046: tail_L_015
+    400048: tail_L_016
+    400050: tail_L_017
+    400052: tail_L_018
+    400054: tail_R
+    400056: tail_R_001
+    400058: tail_R_002
+    400060: tail_R_003
+    400062: tail_R_004
+    400064: tail_R_005
+    400066: tail_R_006
+    400068: tail_R_007
+    400070: tail_R_008
+    400072: tail_R_009
+    400074: tail_R_010
+    400076: tail_R_011
+    400078: tail_R_012
+    400080: tail_R_013
+    400082: tail_R_014
+    400084: tail_R_015
+    400086: tail_R_016
+    400088: tail_R_017
+    400090: tail_R_018
+    400092: wing_base_L
+    400094: wing_base_R
+    400096: wing_mid_L
+    400098: wing_mid_R
+    400100: wing_outer_L
+    400102: wing_outer_R
+    2300000: hawk
+    3300000: hawk
+    4300000: hawk
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
